@@ -1,14 +1,24 @@
 {
-  "name": “posbeserver",
+  "name": "posbeserver",
   "version": "1.0.0",
   "description": "",
-  "main": “server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": “AndyPosbe",
-  "license": "ISC",
+  "main": "server.js",
   "dependencies": {
-    "express": "^4.13.4",
-  }
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyposbe/server1.git"
+  },
+  "author": "posbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyposbe/server1/issues"
+  },
+  "homepage": "https://github.com/andyposbe/server1#readme"
 }
