@@ -22,5 +22,5 @@ function calcularGenes(a,b){
 function calcularGenes2(a,b,c){
     return a/b +c;
 }
-
-app.listen(3000)
+var port = Number(process.env.PORT || 5000);
+app.listen(port)
