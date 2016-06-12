@@ -5,7 +5,7 @@ app.use(express.static('static'));
 app.get('/', function (req, res) {
 	var a = 1;
 	var b = calcularGenes(4,5);
-	var c = calcularGenes2(4,5,3);
+	var c = calcularGenes2(4,5,4);
 
 	console.log("Hola "+a);
  	res.send('Hello '+a+" - "+b+ " - " +c+' Goodbye');
