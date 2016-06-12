@@ -22,5 +22,11 @@ function calcularGenes(a,b){
 function calcularGenes2(a,b,c){
     return a/b +c;
 }
+
+function calcularGenes3 (){
+	var gen = "ATGACTAG";
+	return gen;
+}
+
 var port = Number(process.env.PORT || 5000);
 app.listen(port)
