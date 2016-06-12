@@ -15,7 +15,6 @@ app.get('/about', function (req, res) {
   	res.send('andy')
 })
 
-
 function calcularGenes(a,b){
     return a*b;
 }
