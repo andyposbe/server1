@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 	var c = calcularGenes2(4,5,4);
 
 	console.log("Hola "+a);
- 	res.send('Hello '+a+" - "+b+ " - " +c+' Goodbye');
+ 	res.send('Buenas Noches');
 })
 
 app.get('/about', function (req, res) {
